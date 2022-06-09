@@ -1,0 +1,85 @@
+.trade-krypto {
+  margin-top: 4.5rem;
+  position: relative;
+}
+.trade-krypto h1,
+.trade-krypto p {
+  text-align: center;
+}
+
+.trade-krypto h1 {
+  font-size: 4rem;
+  font-weight: 700;
+}
+
+.trade-krypto p {
+  margin-top: 1rem;
+  font-size: 1.25rem;
+  color: #aaaaaa;
+}
+
+.trade-krypto article {
+  margin-top: 4.5rem;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.trade-krypto article figure img {
+  max-width: 100%;
+  width: 100%;
+  border-radius: 1rem;
+}
+
+.trade-krypto article .steps-to-trade {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.trade-krypto article h3 {
+  margin-bottom: 2rem;
+  font-size: 2.15rem;
+  font-weight: 700;
+  text-align: center;
+  color: #EF443B
+}
+
+.trade-krypto article .steps-to-trade button {
+  min-width: 285px;
+  min-height: 4rem;
+  position: relative;
+  display: flex;
+  align-items: center;
+  padding: 0 1rem;
+  margin-bottom: 1.25rem;
+  box-shadow: 0px 0px 4px rgba(239, 68, 59, 0.4);
+  border: none;
+  border-radius: 5rem;
+  background: transparent;
+  transition: all .5s;
+}
+
+.trade-krypto article .steps-to-trade button:hover {
+  box-shadow: 0px 0px 40px rgba(239, 68, 59, 0.4);
+  background: #160E33;
+}
+
+.trade-krypto article .steps-to-trade button span:first-child {
+  width: 2.75rem;
+  height: 2.75rem;
+  margin-right: 1rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5rem;
+  background: #EF443B;
+  font-size: 1.15rem;
+  font-weight: 500;
+  color: #160E33;
+}
+
+.trade-krypto article .steps-to-trade button span:nth-child(2) {
+  font-size: 1.15rem;
+  font-weight: 500;
+  color: #EF443B;
+}
