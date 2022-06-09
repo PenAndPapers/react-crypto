@@ -37,7 +37,7 @@
   transition: all .5s;
 }
 
-article:hover {
+.portfolio article:hover {
   box-shadow: 0px 0px 40px rgba(239, 68, 59, 0.4);
 }
 
