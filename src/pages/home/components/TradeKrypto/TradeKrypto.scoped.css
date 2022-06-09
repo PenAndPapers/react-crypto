@@ -1,5 +1,5 @@
 .trade-krypto {
-  margin-top: 4.5rem;
+  margin-top: 7rem;
   position: relative;
 }
 .trade-krypto h1,
@@ -24,10 +24,20 @@
   grid-template-columns: repeat(2, minmax(0, 1fr));
 }
 
+.trade-krypto article figure {
+  height: 635px;
+  position: relative;
+}
+
 .trade-krypto article figure img {
-  max-width: 100%;
-  width: 100%;
   border-radius: 1rem;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  object-fit: cover;
+  object-position: center;
 }
 
 .trade-krypto article .steps-to-trade {

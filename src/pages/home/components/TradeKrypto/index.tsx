@@ -1,7 +1,7 @@
 import StepsToTrade from './StepsToTrade'
 import './TradeKrypto.scoped.css'
 
-const TradeKyrpto = (props) => {
+const TradeKyrpto = () => {
   return (
     <div className='trade-krypto'>
       <h1>How to Trade with Krypto</h1>

@@ -2,7 +2,7 @@ import AcceptedCryptoPayment from './AcceptedCryptoPayment'
 import CountDownTimer from './CountDownTimer'
 import './Hero.scoped.css'
 
-const Hero = (props) => {
+const Hero = () => {
   return (
     <div className='hero'>
       <h1>Next Generation <br />Crypto Trading</h1>

@@ -1,0 +1,51 @@
+.attractive-features {
+  margin-top: 7rem;
+  position: relative;
+}
+.attractive-features h1,
+.attractive-features p {
+  text-align: center;
+}
+
+.attractive-features h1 {
+  font-size: 4rem;
+  font-weight: 700;
+}
+
+.attractive-features p {
+  margin-top: 1rem;
+  font-size: 1.25rem;
+  color: #aaaaaa;
+}
+
+.attractive-features .features {
+  margin-top: 4.5rem;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 2rem;
+}
+
+.features article .title {
+  margin-bottom: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+}
+
+.features article .title i {
+  margin-right: 2rem;
+  font-size: 3rem;
+  color: #EF443B;
+}
+
+.features article .title h3 {
+  font-weight: 500;
+  font-size: 2rem;
+}
+
+.features article p {
+  text-align: left;
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: 1.75rem;
+}

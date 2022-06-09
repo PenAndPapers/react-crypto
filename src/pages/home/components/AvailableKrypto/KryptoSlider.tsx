@@ -11,7 +11,7 @@ const AvailableKyrpto = (props: ComponentProps) => {
     <div className='slider'>
       {
         props.sliderData.map((data: AvailableKrypto) => {
-          return <KryptoSliderCard data={data} />
+          return <KryptoSliderCard data={data} key={data.id} />
         })
       }
     </div>
