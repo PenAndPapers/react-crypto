@@ -5,9 +5,9 @@ interface ComponentProps {
   featuresData: AttractiveFeatures[]
 }
 
-const Features = (props: ComponentProps) => {
+const FeatureList = (props: ComponentProps) => {
   return (
-    <div className='features'>
+    <div className='feature-list'>
       {
         props.featuresData.map(data => {
           return <FeatureCard data={data} key={data.id} />
@@ -17,4 +17,4 @@ const Features = (props: ComponentProps) => {
   )
 }
 
-export default Features
+export default FeatureList

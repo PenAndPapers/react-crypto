@@ -1,5 +1,5 @@
-import Features from './Features'
-import './AttractiveFeatures.scope.css'
+import FeatureList from './FeatureList'
+import './Features.scope.css'
 import { AttractiveFeatures as FeatureModel } from '../../../../models/AttractiveFeatures'
 
 const AttractiveFeatures = () => {
@@ -42,10 +42,10 @@ const AttractiveFeatures = () => {
     }
   ]
   return (
-    <div className='attractive-features'>
+    <div className='features'>
       <h1>Attractive Features</h1>
       <p>Maiores cum, voluptate quidem dolores quae enim mollitia eum nisi quas quaerat illo non.</p>
-      <Features featuresData={data} />
+      <FeatureList featuresData={data} />
     </div>
   )
 }

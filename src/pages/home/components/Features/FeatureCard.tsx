@@ -7,7 +7,7 @@ interface ComponentProps {
 const FeatureCard = (props: ComponentProps) => {
   const { icon, title, description } = props.data
   return (
-    <article className='feature'>
+    <article>
       <div className='title'>
         <i className={`fa-solid ${icon}`} />
         <h3>{ title }</h3>

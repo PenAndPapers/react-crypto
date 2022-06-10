@@ -1,9 +1,9 @@
 import StepsToTrade from './StepsToTrade'
-import './TradeKrypto.scoped.css'
+import './Trade.scoped.css'
 
-const TradeKyrpto = () => {
+const HowToTrade = () => {
   return (
-    <div className='trade-krypto'>
+    <div className='trade'>
       <h1>How to Trade with Krypto</h1>
       <p>Dolorum sunt reiciendis cumque in animi saepe tenetur mollitia.</p>
       <article>
@@ -16,4 +16,4 @@ const TradeKyrpto = () => {
   )
 }
 
-export default TradeKyrpto
+export default HowToTrade

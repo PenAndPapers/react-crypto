@@ -1,24 +1,24 @@
-.attractive-features {
+.features {
   margin-top: 7rem;
   position: relative;
 }
-.attractive-features h1,
-.attractive-features p {
+.features h1,
+.features p {
   text-align: center;
 }
 
-.attractive-features h1 {
+.features h1 {
   font-size: 4rem;
   font-weight: 700;
 }
 
-.attractive-features p {
+.features p {
   margin-top: 1rem;
   font-size: 1.25rem;
   color: #aaaaaa;
 }
 
-.attractive-features .features {
+.features .feature-list {
   margin-top: 4.5rem;
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
