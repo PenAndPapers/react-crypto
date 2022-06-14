@@ -1,6 +1,6 @@
 import PortfolioSlider from "./PortfolioSlider"
 import { PortfolioModel } from "../../../../models/Portfolio"
-import './Portfolio.scoped.css'
+import style from './style.module.css'
 
 const Portfolio = () => {
   const data: PortfolioModel[] = [
@@ -28,7 +28,7 @@ const Portfolio = () => {
   ]
 
   return (
-    <div className='portfolio'>
+    <div className={style.portfolio}>
       <h1>30 Million Users Worldwide</h1>
       <p>Ratione velit harum nisi illo veniam ullam nostrum exercitationem!</p>
       <PortfolioSlider sliderData={data} />

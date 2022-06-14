@@ -1,6 +1,7 @@
 
 import { AvailableKrypto } from '../../../../models/AvailableKrypto'
 import KryptoSliderCard from './KryptoSliderCard'
+import style from './style.module.css'
 
 interface ComponentProps {
   sliderData: AvailableKrypto[]
@@ -8,7 +9,7 @@ interface ComponentProps {
 
 const AvailableKyrpto = (props: ComponentProps) => {
   return (
-    <div className='slider'>
+    <div className={style.slider}>
       {
         props.sliderData.map((data: AvailableKrypto) => {
           return <KryptoSliderCard data={data} key={data.id} />

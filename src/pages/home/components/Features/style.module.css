@@ -2,6 +2,7 @@
   margin-top: 7rem;
   position: relative;
 }
+
 .features h1,
 .features p {
   text-align: center;
@@ -18,27 +19,27 @@
   color: #aaaaaa;
 }
 
-.features .feature-list {
+.featureList {
   margin-top: 4.5rem;
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 2rem;
 }
 
-.features article .title {
+.title {
   margin-bottom: 2rem;
   display: flex;
   align-items: center;
   justify-content: left;
 }
 
-.features article .title i {
+.title i {
   margin-right: 2rem;
   font-size: 3rem;
   color: #EF443B;
 }
 
-.features article .title h3 {
+.title h3 {
   font-weight: 500;
   font-size: 2rem;
 }

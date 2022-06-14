@@ -1,9 +1,9 @@
 import StepsToTrade from './StepsToTrade'
-import './Trade.scoped.css'
+import style  from './style.module.css'
 
 const HowToTrade = () => {
   return (
-    <div className='trade'>
+    <div className={style.trade}>
       <h1>How to Trade with Krypto</h1>
       <p>Dolorum sunt reiciendis cumque in animi saepe tenetur mollitia.</p>
       <article>

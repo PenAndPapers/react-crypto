@@ -1,5 +1,5 @@
 import KryptoSlider from './KryptoSlider'
-import './AvailableKrypto.scoped.css'
+import style from './style.module.css'
 import { AvailableKrypto } from '../../../../models/AvailableKrypto'
 
 const AvailableKyrpto = () => {
@@ -28,7 +28,7 @@ const AvailableKyrpto = () => {
   ]
 
   return (
-    <div className='available-krypto'>
+    <div className={style.availableKrypto}>
       <h1>Available Krypto</h1>
       <p>Fugit, accusamus libero repellat blanditiis voluptatibus accusantium dignissimos</p>
       <KryptoSlider sliderData={data} />

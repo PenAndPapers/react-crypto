@@ -1,13 +1,13 @@
 import AcceptedCryptoPayment from './AcceptedCryptoPayment'
 import CountDownTimer from './CountDownTimer'
-import './Hero.scoped.css'
+import style  from './style.module.css'
 
 const Hero = () => {
   return (
-    <div className='hero'>
+    <div className={style.hero}>
       <h1>Next Generation <br />Crypto Trading</h1>
       <CountDownTimer />
-      <div className="button-group">
+      <div className={style.buttonGroup}>
         <button>Download App</button>
         <button>Trade Crypto</button>
       </div>

@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react'
+import style  from './style.module.css'
 
 const CountDownTimer = () => {
   const countDownDate = new Date('December 31, 2030').getTime()
@@ -40,22 +41,22 @@ const CountDownTimer = () => {
   }, [])
 
   return (
-    <div className='count-down-timer'>
+    <div className={style.countDownTimer}>
       <h4>Crypto Market Starts in</h4>
-      <div className="timer">
-        <div className="item">
+      <div className={style.timer}>
+        <div className={style.item}>
           <h3>{ days }</h3>
           <p>Days</p>
         </div>
-        <div className="item">
+        <div className={style.item}>
           <h3>{ hours }</h3>
           <p>Hours</p>
         </div>
-        <div className="item">
+        <div className={style.item}>
           <h3>{ mins }</h3>
           <p>Minutes</p>
         </div>
-        <div className="item">
+        <div className={style.item}>
           <h3>{ seconds }</h3>
           <p>Seconds</p>
         </div>

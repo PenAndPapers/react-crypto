@@ -1,42 +1,42 @@
-.available-krypto {
+.availableKrypto {
   margin-top: 7rem;
   position: relative;
 }
-.available-krypto h1,
-.available-krypto p {
+.availableKrypto h1,
+.availableKrypto p {
   text-align: center;
 }
 
-.available-krypto h1 {
+.availableKrypto h1 {
   font-size: 4rem;
   font-weight: 700;
 }
 
-.available-krypto p {
+.availableKrypto p {
   margin-top: 1rem;
   font-size: 1.25rem;
   color: #aaaaaa;
 }
 
-.available-krypto .slider {
+.slider {
   margin-top: 4.5rem;
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 2rem;
 }
 
-.available-krypto .slider article {
+.slider article {
   border-radius: 1rem;
   overflow: hidden;
   background: #ffffff;
 }
 
-.available-krypto .slider article figure {
+.slider figure {
   height: 350px;
   position: relative;
 }
 
-.available-krypto .slider article figure img {
+.slider figure img {
   position: absolute;
   width: 100%;
   height: 100%;
@@ -46,20 +46,20 @@
   object-position: center;
 }
 
-.available-krypto .slider article .details {
+.details {
   min-height: 300px;
   padding: 0rem 2rem;
   position: relative;
 }
 
-.available-krypto .slider article .details h3 {
+.details h3 {
   padding-top: 2rem;
   font-size: 1.5rem;
   font-weight: 500;
   color: #160E33;
 }
 
-.available-krypto .slider article .details p {
+.details p {
   text-align: left;
   color: #160E33;
   opacity: .6;
@@ -72,7 +72,7 @@
    -webkit-box-orient: vertical;
 }
 
-.available-krypto .slider article .details .price {
+.price {
   position: absolute;
   bottom: 2rem;
   left: 0;
@@ -83,14 +83,14 @@
   justify-content: space-between;
 }
 
-.available-krypto .slider article .details .price span {
+.price span {
   font-size: 2.25rem;
   font-weight: 700;
   color: #EF443B;
   margin-left: 2rem;
 }
 
-.available-krypto .slider article .details .price button {
+.price button {
   margin-right: 2rem;
   padding: 1rem 1.5rem;
   border-radius: 5rem;
@@ -103,6 +103,6 @@
   transition: all .5s;
 }
 
-.available-krypto .slider article .details .price button:hover {
+.price button:hover {
   box-shadow: 0px 0px 40px rgba(239, 68, 59, 0.4);
 }

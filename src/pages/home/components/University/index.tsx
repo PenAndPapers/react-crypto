@@ -1,6 +1,6 @@
-import './University.scoped.css'
 import { News } from '../../../../models/News'
 import NewsList from './NewsList'
+import style from './style.module.css'
 
 const University = () => {
   const data: News[] = [
@@ -31,7 +31,7 @@ const University = () => {
   ]
 
   return (
-    <div className='university'>
+    <div className={style.university}>
       <h1>Crypto Market Analysis</h1>
       <p>Sed ad corporis tempora obcaecati dolorem unde nesciunt libero.</p>
       <NewsList newsData={data} />

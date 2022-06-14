@@ -1,6 +1,8 @@
-const StepsToTrade = (props) => {
+import style  from './style.module.css'
+
+const StepsToTrade = () => {
   return (
-    <div className="steps-to-trade">
+    <div className={style.stepsToTrade}>
       <div>
         <h3>Steps to trade</h3>
         <button>

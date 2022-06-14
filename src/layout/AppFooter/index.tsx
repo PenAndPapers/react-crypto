@@ -1,10 +1,11 @@
 import { Link } from 'react-router-dom'
+import style from './style.module.css'
 
 const AppNavbar = () => {
   return (
-    <footer>
+    <footer className={style.footer}>
       <div className="container">
-        <div className="links">
+        <div className={style.links}>
           <div>
             <h2><Link to='/'>Krypto</Link></h2>
             <p>Ad veniam enim esse in eu eiusmod sint Lorem do. Consequat laborum non aute minim consectetur mollit eu consequat officia aute. Aliqua pariatur quis sit eiusmod quis laboris sint elit cillum aute.</p>
@@ -34,9 +35,9 @@ const AppNavbar = () => {
             <span>We don't sell your email and spam</span>
           </div>
         </div>
-        <div className="social">
+        <div className={style.social}>
           <div>
-          <Link to='/'>Privacy &amp; terms</Link>&nbsp;<Link to='/'>Contact us</Link>
+            <Link to='/'>Privacy &amp; terms</Link>&nbsp;&nbsp;&nbsp;<Link to='/'>Contact us</Link>
           </div>
           <div>
             <p>Copyright @ 2022 xpence</p>

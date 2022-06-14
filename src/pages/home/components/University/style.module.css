@@ -19,26 +19,25 @@
   color: #aaaaaa;
 }
 
-
-.university .news-list {
+.newsList {
   margin-top: 4.5rem;
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 2rem;
 }
 
-.university .news-list article {
+.newsList article {
   display: flex;
 }
 
-.university .news-list article figure {
+.newsList figure {
   min-width: 160px;
   min-height: 180px;
   position: relative;
   margin-right: 2rem;
 }
 
-.university .news-list article figure img {
+.newsList figure img {
   width: 100%;
   height: 100%;
   object-fit: cover;
@@ -46,17 +45,17 @@
   border-radius: 1rem;
 }
 
-.university .news-list article h3 {
+.newsList article h3 {
   font-size: 1.5rem;
   font-weight: 500;
 }
 
-.university .news-list article > div {
+.newsList article > div {
   position: relative;
   text-align: left;
 }
 
-.university .news-list article p {
+.newsList article p {
   overflow: hidden;
   text-overflow: ellipsis;
   display: -webkit-box;
@@ -69,7 +68,7 @@
   text-align: left;
 }
 
-.university .news-list article a {
+.newsList article a {
   position: absolute;
   bottom: 0;
   font-size: 1.15rem;

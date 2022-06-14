@@ -2,10 +2,11 @@ import bitcoin from '../../../../assets/images/coins/payment/bitcoin.png'
 import litecoin from '../../../../assets/images/coins/payment/litecoin.png'
 import chainlink from '../../../../assets/images/coins/payment/chainlink.png'
 import siacoin from '../../../../assets/images/coins/payment/siacoin.png'
+import style  from './style.module.css'
 
-const AcceptedCryptoPayment = (props) => {
+const AcceptedCryptoPayment = () => {
   return (
-    <div className='accepted-crypto-payment'>
+    <div className={style.acceptedCryptoPayment}>
       <p>We accept</p>
       <ul>
         <li>

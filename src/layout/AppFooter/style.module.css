@@ -1,0 +1,94 @@
+.footer {
+  margin: 7rem auto;
+}
+
+.links {
+  display: grid;
+  grid-template-columns: 280px 200px 200px auto;
+  gap: 2rem;
+}
+
+.links h2 {
+  margin-bottom: 3rem;
+  font-size: 1.5rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: #EF443B;
+}
+
+.links div:first-child h2 a {
+  text-transform: capitalize;
+  color: #EF443B;
+  text-decoration: none;
+}
+
+.links div:first-child p {
+  font-size: 1.15rem;
+  font-weight: 400;
+}
+
+.links nav a {
+  display: block;
+  margin-top: 1rem;
+  font-size: 1.15rem;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+.links div:last-child p {
+  font-size: 1.25rem;
+  font-weight: 400;
+  opacity: .6;
+}
+
+.footer form {
+  margin-top: 2rem;
+  position: relative;
+}
+
+.footer form input {
+  width: 100%;
+  height: 4rem;
+  border-radius: 4rem;
+  border: none;
+}
+
+.footer form button {
+  position: absolute;
+  right: .5rem;
+  top: .6rem;
+  height: 3rem;
+  padding: 0 1rem;
+  border-radius: 4rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  background: #EF443B;
+  border: none;
+}
+
+.links div:last-child span {
+  margin-top: 1rem;
+  display: inline-block;
+  font-size: .85rem;
+  font-weight: 400;
+  opacity: .6;
+}
+
+.social {
+  margin-top: 6rem;
+  padding-top: 2rem;
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid #555555;
+}
+
+.social div a,
+.social div p {
+  font-size: .85rem;
+  text-decoration: none;
+}
+
+.social div:last-child a {
+  margin-right: .25rem;
+  display: inline-block;
+}
