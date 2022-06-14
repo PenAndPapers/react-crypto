@@ -1,7 +1,7 @@
-import bitcoin from '../../../../assets/images/coins/payment/bitcoin.png'
-import litecoin from '../../../../assets/images/coins/payment/litecoin.png'
-import chainlink from '../../../../assets/images/coins/payment/chainlink.png'
-import siacoin from '../../../../assets/images/coins/payment/siacoin.png'
+import bitcoin from '@/assets/images/coins/payment/bitcoin.png'
+import litecoin from '@/assets/images/coins/payment/litecoin.png'
+import chainlink from '@/assets/images/coins/payment/chainlink.png'
+import siacoin from '@/assets/images/coins/payment/siacoin.png'
 import style  from './style.module.css'
 
 const AcceptedCryptoPayment = () => {

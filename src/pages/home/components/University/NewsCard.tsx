@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom'
-import { News } from '../../../../models/News'
+import { News } from '@/models/News'
 
 interface ComponentProps {
   data: News

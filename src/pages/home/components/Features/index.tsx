@@ -1,6 +1,6 @@
 import FeatureList from './FeatureList'
+import { AttractiveFeatures as FeatureModel } from '@/models/AttractiveFeatures'
 import style from './style.module.css'
-import { AttractiveFeatures as FeatureModel } from '../../../../models/AttractiveFeatures'
 
 const AttractiveFeatures = () => {
   const data: FeatureModel[] = [

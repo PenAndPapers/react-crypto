@@ -1,4 +1,4 @@
-import { AttractiveFeatures } from "../../../../models/AttractiveFeatures"
+import { AttractiveFeatures } from "@/models/AttractiveFeatures"
 import style from './style.module.css'
 
 interface ComponentProps {

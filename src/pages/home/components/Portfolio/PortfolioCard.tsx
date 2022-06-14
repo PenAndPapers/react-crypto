@@ -1,5 +1,5 @@
-import { PortfolioModel } from "../../../../models/Portfolio"
-import Qoute from '../../../../assets/images/qoute.svg'
+import { PortfolioModel } from "@/models/Portfolio"
+import Qoute from '@/assets/images/qoute.svg'
 import style from './style.module.css'
 
 interface ComponentProps {

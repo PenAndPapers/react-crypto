@@ -1,5 +1,5 @@
-import GooglePlay from '../../../../assets/images/cta/google_play.png'
-import AppStore from '../../../../assets/images/cta/app_store.png'
+import GooglePlay from '@/assets/images/cta/google_play.png'
+import AppStore from '@/assets/images/cta/app_store.png'
 import style from './style.module.css'
 
 const Cta = () => {

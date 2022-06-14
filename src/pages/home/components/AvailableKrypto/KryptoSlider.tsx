@@ -1,5 +1,5 @@
 
-import { AvailableKrypto } from '../../../../models/AvailableKrypto'
+import { AvailableKrypto } from '@/models/AvailableKrypto'
 import KryptoSliderCard from './KryptoSliderCard'
 import style from './style.module.css'
 

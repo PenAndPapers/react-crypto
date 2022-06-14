@@ -1,5 +1,5 @@
 import PortfolioCard from "./PortfolioCard"
-import { PortfolioModel } from "../../../../models/Portfolio"
+import { PortfolioModel } from "@/models/Portfolio"
 import style from './style.module.css'
 
 interface ComponentProps {

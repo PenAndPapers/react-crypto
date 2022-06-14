@@ -1,6 +1,6 @@
 import KryptoSlider from './KryptoSlider'
 import style from './style.module.css'
-import { AvailableKrypto } from '../../../../models/AvailableKrypto'
+import { AvailableKrypto } from '@/models/AvailableKrypto'
 
 const AvailableKyrpto = () => {
   const data: AvailableKrypto[] = [

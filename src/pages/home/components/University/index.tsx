@@ -1,4 +1,4 @@
-import { News } from '../../../../models/News'
+import { News } from '@/models/News'
 import NewsList from './NewsList'
 import style from './style.module.css'
 

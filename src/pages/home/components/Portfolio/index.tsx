@@ -1,5 +1,5 @@
 import PortfolioSlider from "./PortfolioSlider"
-import { PortfolioModel } from "../../../../models/Portfolio"
+import { PortfolioModel } from "@/models/Portfolio"
 import style from './style.module.css'
 
 const Portfolio = () => {

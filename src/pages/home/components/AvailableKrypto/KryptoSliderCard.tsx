@@ -1,4 +1,4 @@
-import { AvailableKrypto } from "../../../../models/AvailableKrypto"
+import { AvailableKrypto } from "@/models/AvailableKrypto"
 import style from './style.module.css'
 
 interface ComponentProps {
